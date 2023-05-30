@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "dappImage": {
+      "type": "string"
+    },
+    "websiteUrl": {
+      "type": "object",
+      "properties": {
+        "mainnet": {
+          "type": "string",
+          "format": "uri"
+        },
+        "testnet": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["mainnet", "testnet"]
+    },
+    "category": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "DeFi-Lending & Borrowing",
+          "DeFi-Decentralized Exchanges (DEX)",
+          "DeFi-Yield Farming",
+          "DeFi-Liquid Staking",
+          "DeFi-Insurance",
+          "NFT-Collectibles",
+          "NFT-Virtual Real Estate",
+          "NFT-Domain Names",
+          "NFT-Music",
+          "NFT-Sports & Gaming",
+          "Social-Decentralized Social Networks",
+          "Social-Content Creation & Monetization",
+          "Social-Messaging & Communication",
+          "Social-Decentralized Autonomous Organizations (DAO)",
+          "Infrastructure-Oracle Providers",
+          "Infrastructure-Interoperability & Cross-Chain",
+          "Infrastructure-Data Storage",
+          "Infrastructure-Identity & Authentication",
+          "Privacy-Privacy-preserving Technologies",
+          "Privacy-Private Transactions",
+          "Tools & Utilities-Wallets",
+          "Tools & Utilities-Analytics & Tracking",
+          "Tools & Utilities-Developer Tools",
+          "Tools & Utilities-Governance",
+          "Unknown"
+        ]
+      }
+    },
+    "privacyPolicyUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "termsOfServiceUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "githubUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "contactEmail": {
+      "type": "string",
+      "format": "email"
+    },
+    "smartContractAddresses": {
+      "type": "object",
+      "properties": {
+        "mainnet": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "testnet": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "countryOfOrigin": {
+      "type": "string"
+    }
+  },
+  "required": ["name", "description", "dappImage", "websiteUrl", "category"]
+}
