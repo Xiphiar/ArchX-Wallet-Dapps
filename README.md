@@ -35,6 +35,7 @@ If `window.archx` exists, you can show the option for "Connect with ArchX". You 
 ```javascript
 if (typeof window.archx !== "undefined") {
   // Show the option for "Connect with ArchX" and logo
+  // Use window.keplr OR window.archx going forward both are the available.
 }
 ```
 
