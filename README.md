@@ -6,6 +6,7 @@ Welcome to the ArchX Wallet Dapp Submission Guide. Please follow the steps below
 
 ## Submission Steps
 
+0. Clone the repository.
 1. **Create a folder** for your Dapp in the root of the repository.
 2. In your folder, create a `details.json` file that follows our schema (refer to `schema.json`).
 3. Include your Dapp image in your folder. The image should have a minimum dimension of 328 x 176.
