@@ -1,6 +1,6 @@
 {
   "name": "ArchID",
-  "description": "ArchID is a name service for Archway Network, supporting domains, subdomains, and web2 identity verification. Mint domains as NFTs and update their metadata to share your social accounts with the Archway eco-system. Developers can add Github repositories and smart contract addresses as subdomains managed by their main address. ArchID re-imagines blockchain identity as a system that's for developers by developers, powered by updatable NFTs managed by our core registry protocol. Gone are the days of static, unchanging tokens, welcome to the new era of NFT assets that grow and develop along your side as your dapps mature.",
+  "description": "ArchID is a name service for Archway Network, supporting domains, subdomains, and web2 identity verification. Mint domains as NFTs and update their metadata to share your social accounts, and personal flair, with the Archway eco-system. Developers can add Github repositories and smart contract addresses as subdomains managed by their main address. ArchID re-imagines blockchain identity as a system built for developers by developers, powered by updatable NFTs managed by the core ArchID protocol. Gone are the days of static, unchanging tokens, welcome to the new era of NFT assets that grow and develop along side you as your dapps mature.",
   "dappImage": "archid-logo.svg",
   "websiteUrl": {
     "mainnet": "https://archid.app/",
