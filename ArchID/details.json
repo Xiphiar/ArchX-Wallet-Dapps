@@ -7,13 +7,13 @@
     "testnet": "https://test.archid.app/"
   },
   "category": ["Web3 DNS", "Identity Management"],
-  "privacyPolicyUrl": "Coming soon",
-  "termsOfServiceUrl": "Coming soon",
+  "privacyPolicyUrl": "https://archid.app/policy.html",
+  "termsOfServiceUrl": "https://archid.app/tos.html",
   "githubUrl": "https://github.com/archid-protocol",
   "contactEmail": "archid.protocol@gmail.com",
   "smartContractAddresses": {
     "mainnet": ["Coming soon"],
-    "testnet": ["archway1lr8rstt40s697hqpedv2nvt27f4cuccqwvly9gnvuszxmcevrlns60xw4r"]
+    "testnet": ["archway1lr8rstt40s697hqpedv2nvt27f4cuccqwvly9gnvuszxmcevrlns60xw4r","archway146htsfvftmq8fl26977w9xgdwmsptr2quuf7yyra4j0gttx32z3secq008"]
   },
   "countryOfOrigin": "CA"
 }
