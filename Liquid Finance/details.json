@@ -1,0 +1,13 @@
+{
+  "name": "Liquid Finance",
+  "description": "Archway-native liquid staking.",
+  "dappImage": "liquid-finance-banner.jpeg",
+  "websiteUrl": {
+    "mainnet": "app.liquidfinance.xyz",
+    "testnet": "test.liquidfinance.xyz"
+  },
+  "category": [
+    "DeFi-Yield Farming",
+    "DeFi-Liquid Staking"
+  ]
+}
