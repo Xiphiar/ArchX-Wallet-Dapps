@@ -3,27 +3,44 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "description": "Name of the Dapp"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "description": "Description of the Dapp"
     },
-    "dappImage": {
-      "type": "string"
+    "dappImages": {
+      "type": "object",
+      "properties": {
+        "dappBanner": {
+          "type": "string",
+          "description": "Filename of the Dapp banner image located in the same folder"
+        },
+        "dappLogo": {
+          "type": "string",
+          "description": "Filename of the Dapp logo image located in the same folder"
+        }
+      },
+      "required": ["dappBanner", "dappLogo"],
+      "description": "Filenames of the Dapp banner and logo images located in the same folder as the JSON file"
     },
     "websiteUrl": {
       "type": "object",
       "properties": {
         "mainnet": {
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "description": "URL of the Dapp on the mainnet"
         },
         "testnet": {
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "description": "URL of the Dapp on the testnet"
         }
       },
-      "required": ["mainnet", "testnet"]
+      "required": ["mainnet", "testnet"],
+      "description": "Website URLs for the Dapp on mainnet and testnet"
     },
     "category": {
       "type": "array",
@@ -56,23 +73,28 @@
           "Tools & Utilities-Governance",
           "Unknown"
         ]
-      }
+      },
+      "description": "Categories of the Dapp"
     },
     "privacyPolicyUrl": {
       "type": "string",
-      "format": "uri"
+      "format": "uri",
+      "description": "URL of the Privacy Policy"
     },
     "termsOfServiceUrl": {
       "type": "string",
-      "format": "uri"
+      "format": "uri",
+      "description": "URL of the Terms of Service"
     },
     "githubUrl": {
       "type": "string",
-      "format": "uri"
+      "format": "uri",
+      "description": "URL of the Dapp's GitHub repository"
     },
     "contactEmail": {
       "type": "string",
-      "format": "email"
+      "format": "email",
+      "description": "Contact email for the Dapp"
     },
     "smartContractAddresses": {
       "type": "object",
@@ -89,11 +111,14 @@
             "type": "string"
           }
         }
-      }
+      },
+      "description": "Smart contract addresses for the Dapp on mainnet and testnet"
     },
-    "countryOfOrigin": {
-      "type": "string"
+    "enabled": {
+      "type": "boolean",
+      "description": "Flag to indicate whether the Dapp should be enabled or disabled in the wallet Dapp browser."
     }
   },
-  "required": ["name", "description", "dappImage", "websiteUrl", "category"]
+  "required": ["name", "description", "dappImages", "websiteUrl", "category", "enabled"],
+  "description": "Schema for Dapp details"
 }

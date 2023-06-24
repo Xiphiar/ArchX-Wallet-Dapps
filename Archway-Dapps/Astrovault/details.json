@@ -1,15 +1,19 @@
 {
   "name": "Astrovault",
   "description": "DeFi, Sustainably.",
-  "dappImage": "axv-logo.svg",
+  "dappImages": {
+    "dappBanner": "axv-banner.png",
+    "dappLogo": "axv-logo.png"
+  },
   "websiteUrl": {
-    "mainnet": "app.astrovault.io",
-    "testnet": "wip.astrovault.io"
+    "mainnet": "https://app.astrovault.io",
+    "testnet": "https://wip.astrovault.io"
   },
   "category": [
     "DeFi-Decentralized Exchanges (DEX)",
     "DeFi-Yield Farming",
     "DeFi-Liquid Staking",
     "Infrastructure-Interoperability & Cross-Chain"
-  ]
+  ],
+  "enabled": false
 }

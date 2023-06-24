@@ -1,0 +1,22 @@
+{
+  "name": "SampleDex",
+  "description": "SampleDex is a decentralized exchange for trading Cosmos-based tokens.",
+  "dappImages": {
+    "dappBanner": "sampledex-banner.png",
+    "dappLogo": "sampledex-logo.png"
+  },
+  "websiteUrl": {
+    "mainnet": "https://sampledex.com",
+    "testnet": "https://testnet.sampledex.com"
+  },
+  "category": ["DeFi-Decentralized Exchanges (DEX)"],
+  "privacyPolicyUrl": "https://sampledex.com/privacy-policy",
+  "termsOfServiceUrl": "https://sampledex.com/terms-of-service",
+  "githubUrl": "https://github.com/sampledex",
+  "contactEmail": "contact@sampledex.com",
+  "smartContractAddresses": {
+    "mainnet": ["0x1234567890ABCDEF", "0x9876543210ABCDEF"],
+    "testnet": ["0xA1B2C3D4E5F6", "0xFEDCBA0987654321"]
+  },
+  "enabled": true
+}
