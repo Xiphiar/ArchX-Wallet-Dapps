@@ -9,7 +9,7 @@
     "mainnet": "https://archid.app/",
     "testnet": "https://test.archid.app/"
   },
-  "category": ["Web3 DNS", "Identity Management"],
+  "category": ["NFT-Domain Names"],
   "privacyPolicyUrl": "https://archid.app/policy.html",
   "termsOfServiceUrl": "https://archid.app/tos.html",
   "githubUrl": "https://github.com/archid-protocol",
