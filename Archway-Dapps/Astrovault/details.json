@@ -1,6 +1,6 @@
 {
   "name": "Astrovault",
-  "description": "DeFi, Sustainably.",
+  "description": "Astrovault is a unique platform that combines an Automated Market Maker (AMM) and a Decentralized Autonomous Organization (DAO). It offers slippage-free 1:1 trades while also utilizing staking derivatives as base pairs. By using staking derivatives as primary liquidity, users can stake their assets and earn rewards, which contribute to the revenue of the AXV DAO. This revenue is then distributed as Protocol Owned Liquidity (POL) and rewards, ensuring attractive yield and reducing reliance on external liquidity provision. Additionally, Astrovault's slippage-free pools enable easy conversion from derivatives to native assets and facilitate cost-effective stable swaps across multiple chains.",
   "dappImages": {
     "dappBanner": "axv-banner.png",
     "dappLogo": "axv-logo.png"
