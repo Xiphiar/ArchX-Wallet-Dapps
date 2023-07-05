@@ -1,0 +1,14 @@
+{
+  "name": "BonusBlock",
+  "description": "BonusBlock is an engagement protocol that assists any Web3 project in making their present product more actionable and successful by incorporating tailored features and an on-chain referral system. Users receive different benefits for participating in these engagement programmes. Sign up now to begin your journey!",
+  "dappImages": {
+    "dappBanner": "bonusblock-banner.png",
+    "dappLogo": "bonusblock-logo.png"
+  },
+  "websiteUrl": {
+    "mainnet": "https://archway.bonusblock.io/",
+    "testnet": "https://archway-dev.bonusblock.io/"
+  },
+  "category": ["Tools & Utilities-Developer Tools"],
+  "enabled": false
+}
