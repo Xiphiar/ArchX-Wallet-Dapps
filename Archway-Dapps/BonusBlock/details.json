@@ -10,5 +10,5 @@
     "testnet": "https://archway-dev.bonusblock.io/"
   },
   "category": ["Tools & Utilities-Developer Tools"],
-  "enabled": false
+  "enabled": true
 }
